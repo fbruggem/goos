@@ -13,9 +13,9 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: goos_left
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: goos_right
-  - board: nice_nano
+  - board: nice_nano//zmk
     shield: settings_reset
