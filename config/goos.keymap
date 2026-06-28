@@ -124,10 +124,10 @@
 
         Tri {
             bindings = <
-&bootloader  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR                  &none  &none      &none  &none  &bootloader
-&none        &none         &none         &caps_word    &none                       &none  &kp RC(F)  &none  &none  &none
-&none        &none         &none         &none         &none                       &none  &none      &none  &none  &none
-                                         &none         &none       &none    &none  &none  &none
+&bootloader  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR                  &none      &none      &none  &none  &bootloader
+&none        &none         &none         &caps_word    &none                       &kp SLASH  &kp RC(F)  &none  &none  &none
+&none        &none         &none         &none         &none                       &none      &none      &none  &none  &none
+                                         &none         &none       &none    &none  &none      &none
             >;
 
             label = "tri_layer";
