@@ -6,7 +6,7 @@
 
 Inspired by [rae-dux](https://github.com/andrewjrae/rae-dux) — itself an interpretation of the [A. Dux by Tapi](https://github.com/tapioki/cephalopoda/tree/main/Architeuthis%20dux) — dressed in a black-and-white aesthetic and graced with a goos by [Patrick &lt;3](https://www.github.com/pgorner).
 
-![Goos](https://i.imgur.com/OIOcG1Y.jpeg)
+![Goos](image.jpg)
 
 </div>
 
