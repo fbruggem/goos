@@ -135,10 +135,10 @@
 
         gamepad {
             bindings = <
-&kp ESC       &kp Q  &kp W  &kp U      &kp T                      &none  &kp L     &kp UP    &kp R      &none
-&kp TAB       &kp A  &kp S  &kp D      &kp F                      &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-&kp LEFT_ALT  &kp Y  &kp X  &kp C      &none                      &none  &kp S     &none     &kp E      &none
-                            &kp LSHFT  &kp SPACE  &mo 6    &kp B  &kp A  &none
+&kp ESC    &kp Q         &kp W  &kp U      &kp T                      &none  &kp L     &kp UP    &kp R      &none
+&kp TAB    &kp A         &kp S  &kp D      &kp F                      &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
+&kp LCTRL  &kp LEFT_ALT  &kp X  &kp C      &none                      &none  &kp S     &none     &kp E      &none
+                                &kp LSHFT  &kp SPACE  &mo 6    &kp B  &kp A  &none
             >;
         };
 
