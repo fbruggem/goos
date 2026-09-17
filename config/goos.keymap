@@ -138,7 +138,7 @@
 &kp ESC  &kp Q  &kp W  &kp E      &kp R                      &none  &kp L     &kp UP    &kp R      &none
 &kp TAB  &kp A  &kp S  &kp D      &kp F                      &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
 &none    &kp Y  &kp X  &kp C      &none                      &none  &kp S     &none     &kp E      &none
-                       &kp LSHFT  &kp SPACE  &none    &kp B  &kp A  &none
+                       &kp LSHFT  &kp SPACE  &mo 3    &kp B  &kp A  &none
             >;
         };
     };
