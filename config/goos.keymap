@@ -135,10 +135,19 @@
 
         gamepad {
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp U      &kp T                      &none  &kp L     &kp UP    &kp R      &none
-&kp TAB  &kp A  &kp S  &kp D      &kp F                      &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
-&none    &kp Y  &kp X  &kp C      &none                      &none  &kp S     &none     &kp E      &none
-                       &kp LSHFT  &kp SPACE  &mo 3    &kp B  &kp A  &none
+&kp ESC       &kp Q  &kp W  &kp U      &kp T                      &none  &kp L     &kp UP    &kp R      &none
+&kp TAB       &kp A  &kp S  &kp D      &kp F                      &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none
+&kp LEFT_ALT  &kp Y  &kp X  &kp C      &none                      &none  &kp S     &none     &kp E      &none
+                            &kp LSHFT  &kp SPACE  &mo 6    &kp B  &kp A  &none
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &kp N9  &kp N8  &kp N7  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &kp N3  &kp N2  &kp N1  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &kp N6  &kp N5  &kp N4  &trans                    &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
