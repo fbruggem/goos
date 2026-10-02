@@ -1,17 +1,35 @@
-# Copyright (c) 2022 The ZMK Contributors
-# SPDX-License-Identifier: MIT
-CONFIG_ZMK_POINTING=y
+if SHIELD_GOOS_DONGLE
+
+config ZMK_KEYBOARD_NAME
+	default "goos"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+# two halves
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+	default 2
+
+# peripherals + 5 BT profiles
+config BT_MAX_CONN
+	default 7
+
+config BT_MAX_PAIRED
+	default 7
+
+endif
+
 if SHIELD_GOOS_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "goos"
 
-config ZMK_SPLIT_BLE_ROLE_CENTRAL
+config ZMK_SPLIT_ROLE_CENTRAL
 	default y
 
 endif
 
-if SHIELD_GOOS_LEFT || SHIELD_GOOS_RIGHT
+if SHIELD_GOOS_LEFT || SHIELD_GOOS_RIGHT || SHIELD_GOOS_DONGLE
 
 config ZMK_SPLIT
 	default y
